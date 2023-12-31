@@ -1,7 +1,7 @@
 base_url = "https://welpo.github.io/tabi"
-title = "~/tabi"
+title = "Mihir Kulkarni"
 description = "tabi is a fast, lightweight, and modern Zola theme with multi-language support, optional JavaScript, and a perfect Lighthouse score."
-author = "welpo"
+author = "mihirk284"
 generate_feed = true
 compile_sass = true
 minify_html = true
@@ -58,7 +58,7 @@ default_theme = ""
 # contrast (in light theme) for readability and might not be suitable for all users.
 # Furthermore, low contrasting elements will affect your Google Lighthouse rating.
 # All other skins have optimal contrast.
-skin = ""
+skin = "teal"
 
 # Set browser theme colour. Can be a single colour or [light, dark].
 # Note: Bright colors may be ignored in dark mode.
@@ -91,7 +91,7 @@ remote_repository_branch = "main"  # Defaults to "main".
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 show_remote_changes = true  # Defaults to true.
 # Show a link to the repository of the site, right next to the "Powered by Zola & tabi" text.
-show_remote_source = true  # Defaults to true.
+show_remote_source = false  # Defaults to true.
 
 # Add a "copy" button to codeblocks (loads ~700 bytes of JavaScript).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -156,6 +156,8 @@ menu = [
     { name = "archive", url = "archive", trailing_slash = true },
     { name = "tags", url = "tags", trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
+    { name = "cv", url = "cv", trailing_slash = true },
+    { name = "publications", url = "publications", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
@@ -175,11 +177,13 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 
 # The icons available can be found in "social_icons" in the "static" folder.
 socials = [
-    { name = "github", url = "https://github.com/welpo/", icon = "github" },
-    { name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
-    { name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
-    { name = "youtube", url = "https://youtube.com/@oskerwyld", icon = "youtube" },
-    { name = "spotify", url = "https://open.spotify.com/artist/5Hv2bYBhMp1lUHFri06xkE", icon = "spotify" },
+    { name = "scholar", url = "https://scholar.google.com/citations?user=ioQvwcEAAAAJ&hl=en", icon = "scholar" },
+    { name = "github", url = "https://github.com/mihirk284/", icon = "github" },
+    { name = "twitter", url = "www.twitter.com/mihirk284", icon = "x" },
+    #{ name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
+    #{ name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
+    { name = "youtube", url = "https://www.youtube.com/watch?v=gPrT21sbpTY&list=PL1vpCJr-Ljcf9zSJN1w30zYSulNBcAsKN", icon = "youtube" },
+    #{ name = "spotify", url = "https://open.spotify.com/artist/5Hv2bYBhMp1lUHFri06xkE", icon = "spotify" },
 ]
 
 # Extra menu to show on the footer, below socials section.
