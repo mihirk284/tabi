@@ -285,11 +285,14 @@ favicon_emoji = "🌱"
 # https://osc.garden/blog/automating-social-media-cards-zola/
 social_media_card = "index.jpg"
 
+# Specify a list of menu items in the top navigation bar.
+# See https://welpo.github.io/tabi/blog/mastering-tabi-settings/#menu
 menu = [
-    { name = "publications", url = "publications", trailing_slash = true },
-    { name = "experience", url = "experience", trailing_slash = true },
-    { name = "talks", url = "talks", trailing_slash = true },
-    { name = "projects", url = "projects", trailing_slash = true },
+    { name = "Home", url = "/", trailing_slash = true },
+    { name = "Publications", url = "/publications/", trailing_slash = true },
+    { name = "Experience", url = "/experience/", trailing_slash = true },
+    { name = "Talks", url = "/talks/", trailing_slash = true },
+    { name = "Projects", url = "/projects/", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
