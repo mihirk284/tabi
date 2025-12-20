@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "ramu"
 description = "Una aplicación web para practicar la lectura y comprensión auditiva de números en japonés."
 weight = 35

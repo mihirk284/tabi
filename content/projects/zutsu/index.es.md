@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "zutsu"
 description = "Una aplicación minimalista y privada de gestión de tareas."
 weight = 32

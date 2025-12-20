@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "Calculadora de royalties de streaming"
 description = "Una herramienta para calcular los royalties de streaming para músicos."
 weight = 45

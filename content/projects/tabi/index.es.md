@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "tabi"
 description = "Un tema de Zola rápido, ligero y moderno con soporte multilingüe."
 weight = 40

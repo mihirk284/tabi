@@ -1,7 +1,7 @@
 base_url = "https://welpo.github.io/tabi"
-title = "~/tabi"
-description = "tabi is an accessible Zola theme with search, multi-language support, optional JavaScript, a perfect Lighthouse score, and comprehensive documentation. Crafted for personal websites and blogs."
-author = "welpo"
+title = "Mihir Vinay Kulkarni"
+description = "Researcher in Engineering Cybernetics at NTNU specializing in aerial robotics, reinforcement learning, and autonomous navigation."
+author = "Mihir Vinay Kulkarni"
 generate_feeds = true
 compile_sass = true
 minify_html = true
@@ -126,7 +126,7 @@ stylesheets = []
 # Remote repository for your Zola site.
 # Used for `show_remote_changes` and `show_remote_source` (see below).
 # Supports GitHub, GitLab, Gitea, and Codeberg.
-remote_repository_url = "https://github.com/welpo/tabi"
+remote_repository_url = "https://github.com/mihirk284/mihirk284.github.io"
 # Set this to "auto" to try and auto-detect the platform based on the repository URL.
 # Accepted values are "github", "gitlab", "gitea", and "codeberg".
 remote_repository_git_platform = "auto"  # Defaults to "auto".
@@ -286,9 +286,9 @@ favicon_emoji = "🌱"
 social_media_card = "index.jpg"
 
 menu = [
-    { name = "blog", url = "blog", trailing_slash = true },
-    { name = "archive", url = "archive", trailing_slash = true },
-    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "publications", url = "publications", trailing_slash = true },
+    { name = "experience", url = "experience", trailing_slash = true },
+    { name = "talks", url = "talks", trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
 ]
 
@@ -312,11 +312,9 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
 # To use a custom icon, add it to your site's `static/social_icons` directory.
 socials = [
-    { name = "github", url = "https://github.com/welpo/", icon = "github" },
-    { name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
-    { name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
-    { name = "youtube", url = "https://youtube.com/@oskerwyld", icon = "youtube" },
-    { name = "spotify", url = "https://open.spotify.com/artist/5Hv2bYBhMp1lUHFri06xkE", icon = "spotify" },
+    { name = "github", url = "https://github.com/mihirk284/", icon = "github" },
+    { name = "google_scholar", url = "https://scholar.google.com/citations?user=ioQvwcEAAAAJ&hl=en", icon = "google-scholar" },
+    { name = "email", url = "mailto:mihirk284@gmail.com", icon = "email" },
 ]
 
 # Fediverse profile.

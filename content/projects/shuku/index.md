@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "shuku"
 description = "Shrink media to keep only the dialogue. For immersion language learning."
 weight = 20

@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "dōteki"
 description = "Add dynamic content to your GitHub profile through an intuitive plugin system."
 weight = 30

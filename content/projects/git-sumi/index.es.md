@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "git-sumi"
 description = "El linter de mensajes de commit no opinado basado en Rust."
 weight = 10

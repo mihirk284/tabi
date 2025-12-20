@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "shuku"
 description = "Condensa películas y series para quedarte solo con el diálogo. Diseñado para aprender idiomas."
 weight = 20

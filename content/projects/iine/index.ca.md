@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "iine"
 description = "Botons d'apreciació centrats en la privadesa i accessibles per a la web petita/independent."
 weight = 15

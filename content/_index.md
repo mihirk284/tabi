@@ -1,15 +1,15 @@
 +++
-title = "Latest posts"
-sort_by = "date"
+title = "Home"
+sort_by = "weight"
 
 [extra]
-header = {title = "Hello! I'm tabi~", img = "img/main.webp", img_alt = "Óscar Fernández, the theme's author" }
-section_path = "blog/_index.md"
-max_posts = 4
+header = {title = "Mihir Vinay Kulkarni", img = "img/main.webp", img_alt = "Mihir Vinay Kulkarni" }
 projects_path = "projects/_index.md"
-max_projects = 3
-show_projects_first = false
+max_projects = 9
+show_projects_first = true
 social_media_card = "index.jpg"
 +++
 
-tabi is an accessible [Zola](https://www.getzola.org) theme with [search](@/blog/mastering-tabi-settings/index.md#search), [multi-language support](@/blog/faq-languages/index.md), [optional JavaScript](@/blog/javascript/index.md), a perfect Lighthouse score, and comprehensive documentation. Crafted for personal websites and blogs.
+I am a Researcher at the [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.no) in the Department of Engineering Cybernetics. My research focuses on aerial robotics, reinforcement learning, and autonomous navigation in complex environments.
+
+I recently completed my Ph.D. in Engineering Cybernetics at NTNU, where I worked on enabling resilient autonomy for robotic systems.
