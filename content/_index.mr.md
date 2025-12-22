@@ -3,7 +3,7 @@ title = "मुख्यपृष्ठ"
 sort_by = "weight"
 
 [extra]
-header = {title = "मिहिर विनय कुलकर्णी", img = "img/main.webp", img_alt = "मिहिर विनय कुलकर्णी" }
+header = {title = "मिहिर विनय कुलकर्णी", img = "img/main.png", img_alt = "मिहिर विनय कुलकर्णी" }
 projects_path = "projects/_index.md"
 max_projects = 3
 show_projects_first = true
