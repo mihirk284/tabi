@@ -5,6 +5,5 @@ sort_by = "date"
 insert_anchor_links = "left"
 
 [extra]
-social_media_card = "blog.jpg"
 show_previous_next_article_links = true
 +++

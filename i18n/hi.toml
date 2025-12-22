@@ -6,6 +6,10 @@ full_stop ="।"  # Used at the end of a sentence.
 
 # Menu items.
 # Should match the names in config.extra.menu and config.extra.footer_menu.
+home = "प्रमुख"
+publications = "प्रकाशन"
+experience = "अनुभव"
+talks = "वार्ताएं"
 blog = "ब्लॉग"
 archive = "संग्रह"
 tags = "टैग"

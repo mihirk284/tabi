@@ -1,4 +1,4 @@
-base_url = "https://welpo.github.io/tabi"
+base_url = "https://mihirk284.github.io"
 title = "Mihir Vinay Kulkarni"
 description = "Researcher in Engineering Cybernetics at NTNU specializing in aerial robotics, reinforcement learning, and autonomous navigation."
 author = "Mihir Vinay Kulkarni"
@@ -50,22 +50,16 @@ skip_anchor_prefixes = [
     "https://github.com/",
 ]
 
-[languages.es]
-title = "~/tabi"
-description = "tabi es un tema accesible para Zola con búsqueda, soporte multilingüe, JavaScript opcional, una puntuación perfecta en Lighthouse y documentación exhaustiva. Diseñado para sitios web y blogs personales."
+[languages.hi]
+title = "Mihir Vinay Kulkarni"
+description = "NTNU में इंजीनियरिंग साइबरनेटिक्स में शोधकर्ता, एरियल रोबोटिक्स, रीइन्फोर्समेंट लर्निंग और स्वायत्त नेविगेशन में विशेषज्ञता।"
 generate_feeds = true
 taxonomies = [{name = "tags", feed = true}]
-build_search_index = true
+build_search_index = false
 
-[languages.ca]
-title = "~/tabi"
-description = "tabi és un tema accessible per a Zola amb cerca, suport multilingüe, JavaScript opcional, una puntuació perfecta a Lighthouse i documentació exhaustiva. Dissenyat per a llocs web i blogs personals."
-generate_feeds = true
-taxonomies = [{name = "tags", feed = true}]
-
-[languages.ar]
-title = "~/تابي"
-description = "تابي هو قالب Zola سريع وحديث مع دعم متعدد اللغات و JavaScript اختياري ودرجة Lighthouse مثالية."
+[languages.mr]
+title = "Mihir Vinay Kulkarni"
+description = "NTNU येथे अभियांत्रिकी सायबरनेटिक्समध्ये संशोधक, हवाई रोबोटिक्स, रीइन्फोर्समेंट लर्निंग आणि स्वायत्त नेव्हिगेशनमध्ये तज्ञ।"
 generate_feeds = true
 taxonomies = [{name = "tags", feed = true}]
 build_search_index = false
@@ -266,7 +260,7 @@ tag_sorting = "name"
 # Loads JS to filter. If JS is disabled, the buttons are links to the tag's page.
 # Can be set at the section or config.toml level, following the hierarchy: section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 # Default: true
-enable_cards_tag_filtering = true
+enable_cards_tag_filtering = false
 
 # Invert the order of the site title and page title in the browser tab.
 # Example: true => "Blog • ~/tabi", false => "~/tabi • Blog"
@@ -293,6 +287,7 @@ menu = [
     { name = "Experience", url = "/experience/", trailing_slash = true },
     { name = "Talks", url = "/talks/", trailing_slash = true },
     { name = "Projects", url = "/projects/", trailing_slash = true },
+    # { name = "Blog", url = "/blog/", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
@@ -307,7 +302,7 @@ full_content_in_feed = false
 # Protect against spambots:
 # 1. Use base64 for email (convert at https://www.base64encode.org/ or `printf 'your@email.com' | base64`).
 # 2. Or, set 'encode_plaintext_email' to true for auto-encoding (only protects on site, not in public repos).
-email = "dGFiaUBvc2MuZ2FyZGVu"
+email = "bWloaXJrMjg0QGdtYWlsLmNvbQ=="
 # Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
 encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 
@@ -317,7 +312,8 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 socials = [
     { name = "github", url = "https://github.com/mihirk284/", icon = "github" },
     { name = "google_scholar", url = "https://scholar.google.com/citations?user=ioQvwcEAAAAJ&hl=en", icon = "google-scholar" },
-    { name = "email", url = "mailto:mihirk284@gmail.com", icon = "email" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/mihir-kulkarni-6070b6135/", icon = "linkedin" },
+    { name = "X", url = "https://x.com/mihirk284", icon = "x" }
 ]
 
 # Fediverse profile.
@@ -327,8 +323,6 @@ socials = [
 
 # Extra menu to show on the footer, below socials section.
 footer_menu = [
-    {url = "about", name = "about", trailing_slash = true},
-    {url = "privacy", name = "privacy", trailing_slash = true},
     {url = "https://tabi-stats.osc.garden", name = "site_statistics", trailing_slash = true},
     {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
 ]
