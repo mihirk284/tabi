@@ -1,5 +1,5 @@
 +++
-title = "The Reconfigurable Aerial Robotic Chain"
+title = "The Reconfigurable Aerial Robotic Chain: Shape and Motion Planning"
 description = "Shape and motion planning for a reconfigurable aerial robotic system."
 weight = 100
 draft = false
@@ -8,9 +8,10 @@ draft = false
 tags = ["Aerial Robotics", "Autonomy", "Publications"]
 
 [extra]
-local_image = "img/projects/aerial-chain.png"
+# local_image = "img/projects/aerial-chain.png"
 +++
 
+{{ youtube(id="wP8Mg9_YEh8") }}
 {{ youtube(id="8O7s_EEJkAk") }}
 
 **Authors**: M. Kulkarni, H. Nguyen, and K. Alexis.

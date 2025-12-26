@@ -1,7 +1,7 @@
 base_url = "https://mihirk284.github.io"
-title = "Mihir Vinay Kulkarni"
+title = "Mihir Kulkarni"
 description = "Researcher in Engineering Cybernetics at NTNU specializing in aerial robotics, reinforcement learning, and autonomous navigation."
-author = "Mihir Vinay Kulkarni"
+author = "Mihir Kulkarni"
 generate_feeds = true
 compile_sass = true
 minify_html = true

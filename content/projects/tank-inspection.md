@@ -1,5 +1,5 @@
 +++
-title = "Autonomous Exploration of Industrial Tanks"
+title = "Autonomous Exploration and General Visual Inspection of Ship Ballast Water Tanks using Aerial Robots"
 description = "General visual inspection of ship ballast water tanks using aerial robots."
 weight = 60
 draft = false
@@ -8,12 +8,12 @@ draft = false
 tags = ["Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-local_image = "img/projects/tank-inspection.png"
+# local_image = "img/projects/tank-inspection.png"
 +++
 
 {{ youtube(id="u9i8vi7ymgY") }}
 
-**Authors**: M. Dharmadhikari, N. Khedekar, F. Mascarich, H. Nguyen, N. Giakoumidis and K. Alexis.
+**Authors**: M. Dharmadhikari, P. De Petris, M. Kulkarni, N. Khedekar, H. Nguyen, A. Erik Stene, E. Sjøvold, K. Solheim, B. Gussiaas, K. Alexis
 
 **Venue**: IEEE International Conference on Advanced Robotics (ICAR) 2023.
 

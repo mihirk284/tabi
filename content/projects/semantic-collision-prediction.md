@@ -1,17 +1,18 @@
 +++
 title = "Semantically-enhanced Deep Collision Prediction"
 description = "Autonomous navigation using aerial robots with semantic awareness for collision prediction."
-weight = 50
+weight = 5
 draft = false
 
 [taxonomies]
 tags = ["Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-local_image = "img/projects/se-dcp.png"
+# local_image = "img/projects/se-dcp.png"
 +++
 
 {{ youtube(id="Ni4VywUQCPw") }}
+{{ youtube(id="yoO5MqSPfKw") }}
 
 **Authors**: M. Kulkarni, H. Nguyen, and K. Alexis.
 

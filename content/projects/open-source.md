@@ -8,7 +8,7 @@ weight = 105
 tags = ["Open Source", "Robotics", "Simulation and Rendering", "Publications"]
 
 [extra]
-local_image = "img/projects/oss.png"
+# local_image = "img/projects/oss.png"
 +++
 
 In addition to major research projects, I have contributed to several open-source initiatives:

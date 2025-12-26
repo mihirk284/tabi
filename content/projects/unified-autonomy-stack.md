@@ -2,13 +2,13 @@
 draft = false
 title = "Unified Autonomy Stack"
 description = "A field-tested autonomy architecture commanding a diverse set of robots."
-weight = 12
+weight = 3
 
 [taxonomies]
 tags = ["Robotics", "Autonomy", "Publications"]
 
 [extra]
-local_image = "img/projects/uas.png"
+# local_image = "img/projects/uas.png"
 +++
 
 The [**Unified Autonomy Stack**](https://github.com/ntnu-arl/unified_autonomy_stack) is a field-tested autonomy architecture designed to command a diverse set of robots. It provides a blueprint for generalizable robot autonomy, enabling resilient navigation in complex and degraded environments.

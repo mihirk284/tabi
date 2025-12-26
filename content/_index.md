@@ -3,9 +3,9 @@ title = "Home"
 sort_by = "weight"
 
 [extra]
-header = {title = "Mihir Vinay Kulkarni", img = "img/main.png", img_alt = "Mihir Vinay Kulkarni" }
+header = {title = "Mihir Kulkarni", img = "img/main.png", img_alt = "Mihir Kulkarni" }
 projects_path = "projects/_index.md"
-max_projects = 3
+max_projects = 6
 show_projects_first = false
 social_media_card = "index.jpg"
 +++
@@ -28,4 +28,64 @@ During the final year of my Bachelor's and throughout my Master's, I was part of
 
 ### Technical Expertise
 
-{{ skills_grid() }}
+#### Software and Programming
+
+- C++
+- Python
+- ROS/ROS2
+- PyTorch
+- NVIDIA Isaac Gym, Isaac Lab
+- Docker
+- Matlab
+
+#### CAD Modeling, Rendering, and Simulation
+
+- SolidWorks
+- PTC Creo
+- Blender
+- Gazebo (Classic, Ignition, NVIDIA Isaac)
+
+#### Hardware Design and Fabrication
+
+- PCB Design
+- 3D Printing (FDM, SLA, SLS)
+- CNC machining
+- Assembly and Testing
+
+#### Hardware Platforms
+
+- Aerial Robots (Multirotor, Fixed-wing)
+    - Design, Fabrication, Manufacturing, and Testing 
+- PX4/ Ardupilot Flight Controllers
+    - Setup, tuning, customizations
+- Wheeled Robots
+    - Design, Fabrication, Manufacturing, and Testing
+
+<!-- {{ include(path="content/talks/_index.md") }} -->
+
+
+<!-- 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+
+    <div>
+        <h4 style="margin-bottom: 0.5rem; color: var(--primary);">Robotics & Control</h4>
+        <ul style="margin: 0; padding-left: 1.2rem;">
+            <li>Aerial Robotics (UAVs, MAVs)</li>
+            <li>SLAM (Lidar, Visual, Thermal)</li>
+            <li>Model Predictive Control (MPC)</li>
+            <li>Reinforcement Learning (RL)</li>
+        </ul>
+    </div>
+
+    <div>
+        <h4 style="margin-bottom: 0.5rem; color: var(--primary);">Software & Tools</h4>
+        <ul style="margin: 0; padding-left: 1.2rem;">
+            <li><strong>Rank S:</strong> C++, Python, ROS/ROS2</li>
+            <li><strong>Rank A:</strong> PyTorch, Isaac Gym, Docker</li>
+            <li><strong>Rank B:</strong> Rust, Matlab, CUDA</li>
+        </ul>
+    </div>
+
+</div> -->
+
+

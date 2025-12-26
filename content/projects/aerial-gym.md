@@ -1,14 +1,14 @@
 +++
 title = "Aerial Gym Simulator"
 description = "A framework for highly parallelized simulation of aerial robots based on NVIDIA Isaac Gym."
-weight = 20
+weight = 1
 draft = false
 
 [taxonomies]
 tags = ["Simulation and Rendering", "Reinforcement Learning", "Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-local_image = "img/projects/aerial-gym.png"
+# local_image = "img/projects/aerial-gym.png"
 +++
 
 {{ youtube(id="VBVBQNtHZoc") }}

@@ -1,17 +1,18 @@
 +++
 title = "Reinforcement Learning for Collision-free Flight"
 description = "Exploiting Deep Collision Encoding for autonomous flight in dense environments."
-weight = 30
+weight = 4
 draft = false
 
 [taxonomies]
 tags = ["Reinforcement Learning", "Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-local_image = "img/projects/collision-encoding.png"
+# local_image = "img/projects/collision-encoding.png"
 +++
 
 {{ youtube(id="gPrT21sbpTY") }}
+{{ youtube(id="IpGAmW7ZevY") }}
 
 **Authors**: M. Kulkarni and K. Alexis.
 

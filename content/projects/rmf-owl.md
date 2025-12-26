@@ -1,5 +1,5 @@
 +++
-title = "RMF-Owl: Collision-Tolerant Flying Robot"
+title = "RMF-Owl: A Collision-Tolerant Flying Robot for Autonomous Subterranean Exploration"
 description = "A collision-tolerant flying robot for autonomous subterranean exploration."
 weight = 90
 draft = false
@@ -8,7 +8,7 @@ draft = false
 tags = ["Autonomy", "Publications"]
 
 [extra]
-local_image = "img/projects/rmf-owl.png"
+# local_image = "img/projects/rmf-owl.png"
 +++
 
 {{ youtube(id="F9udtbZFV-Q") }}

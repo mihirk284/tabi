@@ -8,10 +8,10 @@ draft = false
 tags = ["Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-local_image = "img/projects/ncbf.png"
+# local_image = "img/projects/ncbf.png"
 +++
 
-{{ youtube(id="dFjsPwa9oIg") }}
+{{ youtube(id="1id0C6jiFEg") }}
 
 **Authors**: M. Harms, M. Kulkarni, N. Khedekar, M. Jacquet, K. Alexis.
 
